@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login-section">
+			<h1>Login</h1>
+			<form action="login.php" method="post">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+
+				<button type="submit" class="button">Login</button>
+			</form>
+			<a href="#" class="forgot-password">Forgot password?</a>
+		</div>
+
+		<div class="registration-section">
+			<h1>Register</h1>
+			<form action="register.php" method="post">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+
+				<label for="confirm-password">Confirm Password</label>
+				<input type="password" id="confirm-password" name="confirm-password" required>
+
+				<button type="submit" class="button">Register</button>
+			</form>
+			<a href="#" class="already-have-account">Already have an account?</a>
+		</div>
+	</div>
+</body>
+</html>
